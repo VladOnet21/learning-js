@@ -1,0 +1,10 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Vlad Onet",
+  "license": "ISC"
+}
