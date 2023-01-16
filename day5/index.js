@@ -10,4 +10,4 @@ console.log(Math.floor(Math.random() * 100)); // Generam un numar intreg
 
 console.log(Math.ceil(43.8)); // returnam cem mai mic integer mai mic sau egal cu un numar decimal
 
-console.log(Number.isInteger(2017.1)); // verificam daca numarul intrrodus este integer
+console.log(Number.isInteger(2017)); // verificam daca numarul intrrodus este integer
