@@ -15,4 +15,4 @@ console.log(changeMe);
 const entree ='Enchiladas';
 
 console.log(entree);
-entree = 'Tacos';
+entree = 'Tacos'; // eroare , nu se poate reasigna o variabila declarata const
