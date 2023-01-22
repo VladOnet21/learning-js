@@ -11,8 +11,18 @@ changeMe = false;
 
 console.log(changeMe);
 
-//Const declaration
+/**
+ * const declaration
+ *  - cannot be reassigned
+ *  - must be assigned a value when declared
+ *  - cannot be updated or re-declared in the same scope
+ *  - block-scoped
+ *  - cannot be hoisted
+ * - use const by default, only use let if reassignment is needed
+ */
+
 const entree ='Enchiladas';
 
 console.log(entree);
+// eslint-disable-next-line no-const-assign
 entree = 'Tacos';

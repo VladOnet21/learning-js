@@ -1,10 +1,21 @@
 {
   "name": "learning-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "JS",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .js --fix --ignore-path .gitignore .",
+    "lint:fix": "eslint . --ext .js --fix --ignore-path .gitignore . --fix"
   },
   "author": "Vlad Onet",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": {
+    "run": [
+      "lint"
+    ]
+  }
 }
