@@ -1,7 +1,7 @@
 const plantNeedsWater = function (day) {
-    if (day === "Wednesday") {
+    if (day === 'Wednesday') {
       return true;
     } else return false;
   };
-  console.log(plantNeedsWater("Tuesday"));
+  console.log(plantNeedsWater('Tuesday'));
   
