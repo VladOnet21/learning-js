@@ -1,19 +1,15 @@
-console.log('hi');
+
 const getUserChoise = (userInput) => {
   userInput = userInput.toLowerCase();
   switch (userInput) {
     case 'rock':
       return userInput;
-      break;
     case 'paper':
       return userInput;
-      break;
     case 'scissors':
       return userInput;
-      break;
     default:
       return 'Error';
-      break;
   }
 };
 const getComputerChoice = () => {
