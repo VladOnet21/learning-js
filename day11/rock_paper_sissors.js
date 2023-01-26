@@ -1,5 +1,4 @@
-
-const getUserChoise = (userInput) => {
+const getUserChoise = userInput => {
   userInput = userInput.toLowerCase();
   switch (userInput) {
     case 'rock':
@@ -13,9 +12,11 @@ const getUserChoise = (userInput) => {
   }
 };
 const getComputerChoice = () => {
-  if (Math.floor(Math.random() * 3) === 0) {
+  const randomNumber = Math.floor(Math.random() * 3);
+
+  if (randomNumber === 0) {
     return 'rock';
-  } else if (Math.floor(Math.random() * 3) === 1) {
+  } else if (randomNumber === 1) {
     return 'paper';
   } else {
     return 'scissors';
