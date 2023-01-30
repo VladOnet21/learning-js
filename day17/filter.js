@@ -4,11 +4,11 @@ const smallNumbers = randomNumbers.filter((number) => number < 250);
 console.log(smallNumbers);
 
 const favoriteWords = [
-  "nostalgia",
-  "hyperbole",
-  "fervent",
-  "esoteric",
-  "serene",
+  'nostalgia',
+  'hyperbole',
+  'fervent',
+  'esoteric',
+  'serene',
 ];
 
 const longFavoriteWords = favoriteWords.filter((word) => word.length > 7);
