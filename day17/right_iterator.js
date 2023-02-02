@@ -12,7 +12,7 @@ const cities = [
 
 const nums = [1, 50, 75, 200, 350, 525, 1000];
 
-cities.forEach(city => console.log('Have you visited ' + city + '?'));
+cities.forEach(city => console.log(`Have you visited ${city}?`));
 
 const word = cities.reduce((acc, currVal) => {
   return acc + currVal[0];
