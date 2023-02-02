@@ -1,4 +1,4 @@
-const words = ["unique", "uncanny", "pique", "oxymoron", "guise"];
+const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
 
 console.log(
   words.some((word) => {
