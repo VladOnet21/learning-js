@@ -9,24 +9,24 @@ let count = 0;
 storyWords.forEach(() => {
   count++;
 });
-storyWords = storyWords.filter((word) => {
+storyWords = storyWords.filter(word => {
   return word !== unnecessaryWord;
 });
-storyWords = storyWords.map((word) => {
+storyWords = storyWords.map(word => {
   if (word === misspelledWord) {
     return 'beautiful';
   } else {
     return word;
   }
 });
-const badWordIndex = storyWords.findIndex((word) => {
+const badWordIndex = storyWords.findIndex(word => {
   return word === badWord;
 });
 storyWords[badWordIndex] = 'really';
-const lengthCheck = storyWords.every((word) => {
+const lengthCheck = storyWords.every(word => {
   return word <= 10;
 });
-const longWordIndex = storyWords.findIndex((word) => {
+const longWordIndex = storyWords.findIndex(word => {
   return word.length > 10;
 });
 
@@ -34,4 +34,3 @@ storyWords[longWordIndex] = 'dazzling';
 console.log(lengthCheck);
 console.log(storyWords.join());
 console.log(count);
-
