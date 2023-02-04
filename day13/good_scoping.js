@@ -1,8 +1,9 @@
 const logVisibleLightWaves = () => {
-  let lightWaves = 'Moonlight';
+  const lightWaves = 'Moonlight';
   const region = 'The Arctic';
   if (region === 'The Arctic') {
-    let lightWaves = 'Northern Lights';
+    // eslint-disable-next-line no-shadow
+    const lightWaves = 'Northern Lights';
     console.log(lightWaves);
   }
 

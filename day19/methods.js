@@ -1,8 +1,6 @@
-let retreatMessage =
-  'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
+const retreatMessage = 'We no longer wish to conquer your planet. It is full of dogs, which we do not care for.';
 
-
-let alienShip = {
+const alienShip = {
   retreat() {
     console.log(retreatMessage);
   },

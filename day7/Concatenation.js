@@ -1,2 +1,2 @@
-let favoriteAnimal ='Marcel';
-console.log('My favorite animal: ' + favoriteAnimal);
+const favoriteAnimal = 'Marcel';
+console.log(`My favorite animal: ${favoriteAnimal}`);

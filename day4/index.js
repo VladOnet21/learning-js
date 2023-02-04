@@ -1,7 +1,9 @@
-console.log(25+3.5);
-console.log(2023-1969);
-console.log(65/240);
-console.log(0.2708 *100);
+const num1 = 25 + 3.5;
+const num2 = 2023 - 1969;
+const num3 = 65 / 240;
+const num4 = 0.2708 * 100;
 
-console.log('Hello' + 'World');
-console.log('Hello' + ' ' + 'World');
+console.log(num1);
+console.log(num2);
+console.log(num3);
+console.log(num4);

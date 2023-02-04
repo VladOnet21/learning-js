@@ -1,5 +1,5 @@
-let mood = 'sleepy';
-let tirednessLevel = 6;
+const mood = 'sleepy';
+const tirednessLevel = 6;
 if (mood === 'sleepy' || tirednessLevel > 8) {
   console.log('time to sleep');
 } else {

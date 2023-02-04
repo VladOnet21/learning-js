@@ -1,5 +1,5 @@
-let tool = 'marker';
+const tool = 'marker';
 
-let writingUtensil = tool || 'pen';
+const writingUtensil = tool || 'pen';
 
 console.log(`The ${writingUtensil} is mightier than the sword.`);

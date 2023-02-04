@@ -1,4 +1,4 @@
-let secretMessage = [
+const secretMessage = [
   'Learning',
   'is',
   'not',

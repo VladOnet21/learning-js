@@ -1,4 +1,4 @@
-let season = 'summer';
+const season = 'summer';
 
 if (season === 'spring') {
   console.log("It's spring! The trees are budding!");

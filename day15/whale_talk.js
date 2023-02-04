@@ -1,17 +1,16 @@
 let input = 'TUrpentine and turtles';
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 let resultString = '';
-let resultArray = [];
+const resultArray = [];
 input = input.toLowerCase();
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < input.length; i++) {
-  for (let j = 0; j < vowels.length; j++) {
-    if (input[i] === vowels[j]) {
-      resultArray.push(vowels[j]);
-      if (vowels[j] === 'e' || vowels[j] == 'u') {
-        resultArray.push(vowels[j]);
-      }
+  if (vowels.includes(input[i])) {
+    resultArray.push(input[i]);
+    if (input[i] === 'e' || input[i] === 'u') {
+      resultArray.push(input[i]);
     }
   }
 }
-resultString = resultArray.join();
+resultString = resultArray.join('');
 console.log(resultString.toUpperCase());

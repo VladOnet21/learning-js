@@ -1,6 +1,6 @@
 const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 
-const smallNumbers = randomNumbers.filter(number => number < 250);
+const smallNumbers = randomNumbers.filter((number) => number < 250);
 console.log(smallNumbers);
 
 const favoriteWords = [
@@ -11,5 +11,5 @@ const favoriteWords = [
   'serene',
 ];
 
-const longFavoriteWords = favoriteWords.filter(word => word.length > 7);
+const longFavoriteWords = favoriteWords.filter((word) => word.length > 7);
 console.log(longFavoriteWords);

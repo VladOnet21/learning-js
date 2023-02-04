@@ -1,6 +1,6 @@
-// Var declaration 
-var favoriteFood = 'pizza'; // asignarea unui string intr o variabila
-var numOfSlices = 8; // asignarea unui integer intr o variabila
+// Var declaration
+const favoriteFood = 'pizza'; // asignarea unui string intr o variabila
+const numOfSlices = 8; // asignarea unui integer intr o variabila
 
 console.log(favoriteFood);
 console.log(numOfSlices);
@@ -21,7 +21,7 @@ console.log(changeMe);
  * - use const by default, only use let if reassignment is needed
  */
 
-const entree ='Enchiladas';
+const entree = 'Enchiladas';
 
 console.log(entree);
 // eslint-disable-next-line no-const-assign

@@ -1,4 +1,4 @@
-let spaceship = {
+const spaceship = {
   'Fuel Type': 'Turbo Fuel',
   'Active Mission': true,
   homePlanet: 'Earth',
@@ -6,5 +6,6 @@ let spaceship = {
 };
 
 const isActive = spaceship['Active Mission'];
+
 console.log(isActive);
 console.log(spaceship['Active Mission']);

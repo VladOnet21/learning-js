@@ -3,6 +3,7 @@ const vacationSpots = ['Bali', 'Paris', 'Tulum'];
 /**
  * for loop
  */
+// eslint-disable-next-line no-plusplus
 for (let i = 0; i < vacationSpots.length; i++) {
   console.log(`I would love to visit ${vacationSpots[i]} FOR`);
 }
@@ -10,11 +11,4 @@ for (let i = 0; i < vacationSpots.length; i++) {
 /**
  * forEach loop
  */
-vacationSpots.forEach(vacationSpot => console.log(`I would love to visit ${vacationSpot} FOREACH`));
-
-/**
- * for...of loop
- */
-for (const vacationSpot of vacationSpots) {
-  console.log(`I would love to visit ${vacationSpot} FOR OF`);
-}
+vacationSpots.forEach((vacationSpot) => console.log(`I would love to visit ${vacationSpot} FOREACH`));
