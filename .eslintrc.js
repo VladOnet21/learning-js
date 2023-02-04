@@ -7,5 +7,6 @@ module.exports = {
   },
   rules: {
     quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+    indent: ['error', 2, { SwitchCase: 1, ignoredNodes: ['ConditionalExpression'] }],
   },
 };
