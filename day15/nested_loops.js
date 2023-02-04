@@ -14,8 +14,8 @@ for (let i = 0; i < bobsFollowers.length; i++) {
 }
 console.log(mutualFollowersWithFor, 'for');
 
-bobsFollowers.forEach((bobsFollower) => {
-  tinasFollowers.forEach((tinasFollower) => {
+bobsFollowers.forEach(bobsFollower => {
+  tinasFollowers.forEach(tinasFollower => {
     if (bobsFollower === tinasFollower) {
       mutualFollowersWithForEach.push(tinasFollower);
     }

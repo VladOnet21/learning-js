@@ -10,17 +10,17 @@ const badWord = 'freaking';
 // eslint-disable-next-line no-plusplus
 storyWords.forEach(() => count++);
 
-storyWords = storyWords.filter((word) => word !== unnecessaryWord);
+storyWords = storyWords.filter(word => word !== unnecessaryWord);
 
-storyWords = storyWords.map((word) => (word === misspelledWord ? 'beautiful' : word));
+storyWords = storyWords.map(word => (word === misspelledWord ? 'beautiful' : word));
 
-const badWordIndex = storyWords.findIndex((word) => word === badWord);
+const badWordIndex = storyWords.findIndex(word => word === badWord);
 
 storyWords[badWordIndex] = 'really';
 
-const lengthCheck = storyWords.every((word) => word <= 10);
+const lengthCheck = storyWords.every(word => word <= 10);
 
-const longWordIndex = storyWords.findIndex((word) => word.length > 10);
+const longWordIndex = storyWords.findIndex(word => word.length > 10);
 
 storyWords[longWordIndex] = 'dazzling';
 console.log(lengthCheck);

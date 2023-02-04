@@ -1,4 +1,4 @@
-const getUserChoise = (userInput) => {
+const getUserChoise = userInput => {
   const userChoice = userInput.toLowerCase();
   if (userChoice === 'rock' || userChoice === 'paper' || userChoice === 'scissors') {
     return userChoice;

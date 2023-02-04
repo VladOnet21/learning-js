@@ -10,7 +10,7 @@ const getRandEvent = () => {
   return 'undefined';
 };
 
-const getTrainingDays = (event) => {
+const getTrainingDays = event => {
   let days;
 
   switch (event) {

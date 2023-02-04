@@ -11,4 +11,4 @@ for (let i = 0; i < vacationSpots.length; i++) {
 /**
  * forEach loop
  */
-vacationSpots.forEach((vacationSpot) => console.log(`I would love to visit ${vacationSpot} FOREACH`));
+vacationSpots.forEach(vacationSpot => console.log(`I would love to visit ${vacationSpot} FOREACH`));

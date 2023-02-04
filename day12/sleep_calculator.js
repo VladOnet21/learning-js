@@ -1,4 +1,4 @@
-const getSleepHours = (day) => {
+const getSleepHours = day => {
   const getDay = day.toLowerCase();
   switch (getDay) {
     case 'monday':

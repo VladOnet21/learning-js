@@ -1,2 +1,2 @@
-const sayThanks = (name) => console.log(`Thank you for your purchase ${name}! We appreciate your business.`);
+const sayThanks = name => console.log(`Thank you for your purchase ${name}! We appreciate your business.`);
 sayThanks('Cole');

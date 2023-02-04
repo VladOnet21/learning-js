@@ -14,5 +14,6 @@ module.exports = {
     indent: ['error', 2, { SwitchCase: 1, ignoredNodes: ['ConditionalExpression'] }],
     'no-console': 'off',
     'no-else-return': 'off',
+    'arrow-parens': ['error', 'as-needed'],
   },
 };

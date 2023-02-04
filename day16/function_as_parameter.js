@@ -1,4 +1,4 @@
-const addTwo = (num) => num + 2;
+const addTwo = num => num + 2;
 
 const checkConsistentOutput = (func, val) => {
   const checkA = val + 2;
