@@ -13,5 +13,5 @@ for (let i = 0; i < input.length; i++) {
     }
   }
 }
-resultString= resultArray.join();
+resultString = resultArray.join();
 console.log(resultString.toUpperCase());

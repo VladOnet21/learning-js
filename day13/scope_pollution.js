@@ -4,7 +4,7 @@ let stars = 'North Star';
 
 const callMyNightSky = () => {
   stars = 'Sirius';
-  return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+  return `Night Sky: ${satellite}, ${stars}, and ${galaxy}`;
 };
 
 console.log(callMyNightSky());
