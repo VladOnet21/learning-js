@@ -7,7 +7,7 @@ module.exports = {
   },
   plugins: ['import'],
   parserOptions: {
-    ecmaVersion: 6,
+    ecmaVersion: 2020,
   },
   rules: {
     quotes: [2, 'single', { avoidEscape: true, allowTemplateLiterals: true }],
@@ -15,5 +15,6 @@ module.exports = {
     'no-console': 'off',
     'no-else-return': 'off',
     'arrow-parens': ['error', 'as-needed'],
+    'no-shadow': 'off',
   },
 };
