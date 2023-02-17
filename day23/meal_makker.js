@@ -22,3 +22,4 @@ const menu = {
 menu.meal = 'ciorba';
 menu.price = 7;
 console.log(menu.todaysSpecial);
+console.log('test-commit');
