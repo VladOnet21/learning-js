@@ -16,5 +16,6 @@ module.exports = {
     'no-else-return': 'off',
     'arrow-parens': ['error', 'as-needed'],
     'no-shadow': 'off',
+    'no-underscore-dangle': 'off',
   },
 };
