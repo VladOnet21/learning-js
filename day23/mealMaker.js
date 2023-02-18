@@ -24,15 +24,7 @@ const menu = {
      * changed from a function to a getter method, which allows
      * us to access the value of this method without calling it directly.
      */
-    if (this._meal && this._price) {
-      /**
-       * changed from using an OR operator to an AND operator, so that both conditions must be true
-       * for the string to be returned.
-       */
-      return `Today’s speciality is ${this._meal} for ${this._price} $`;
-    } else {
-      return 'Meal or price was not set correctly!';
-    }
+    return this._meal && this._price ? `Today’s speciality is ${this._meal} for ${this._price} $` : 'Meal or price was not set correctly!';
   },
 };
 menu.meal = 'ciorba';
